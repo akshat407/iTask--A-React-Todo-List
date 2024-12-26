@@ -1,0 +1,116 @@
+.to-do-list{
+  font-family: Arial,sans-serif;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+h1{
+  font-size: 4rem;
+
+}
+button{
+  border: none;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: backround-color 0.5s ease;
+
+
+}
+
+.add-btn{
+  background-color: hsl(125, 47%, 54%);
+  margin-left: 20px;
+
+}
+.add-btn:hover{
+  background-color: hsl(125, 47%, 44%);
+  
+}
+.delete-btn{
+  background-color: hsl(10 , 90%, 50%);
+
+}
+.delete-btn:hover{
+  background-color: hsl(10, 90%, 40%);
+  
+}
+.moveup-btn{
+  background-color: hsl(207, 90%, 64%);
+
+}
+.moveup-btn:hover{
+  background-color: hsl(207, 90%, 54%);
+  
+}
+.movedown-btn{
+  background-color: hsl(207, 90%, 64%);
+
+}
+.movedown-btn:hover{
+  background-color: hsl(207, 90%, 54%);
+  
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 10px;
+  color: hsla(0, 0%, 0%, 0.5);
+  
+
+}
+ol{
+  padding: 0;
+}
+/* li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+
+}
+.text
+{
+  flex: 1;
+  /* text-align: center; */
+/* } */
+/* .delete-btn .movedown-btn .moveup-btn{
+  padding: 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+} */ 
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsla(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid rgb(150, 150, 150);
+  display: flex;
+  justify-content: space-between; /* Space between the text and buttons */
+  align-items: center;
+}
+
+.element-item {
+  flex: 1; /* Pushes the buttons to the right */
+}
+
+.delete-btn, .movedown-btn, .moveup-btn {
+  padding: 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+
+
